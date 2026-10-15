@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="file" path="base.nds" />
+        <exclude domain="file" path="game.nds" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="file" path="base.nds" />
+        <exclude domain="file" path="game.nds" />
+    </device-transfer>
+</data-extraction-rules>

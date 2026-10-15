@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">hg-engine</string>
+    <string name="tagline">Pokémon HeartGold, overhauled — on Android.</string>
+    <string name="play">Play</string>
+    <string name="pick_base_rom">Select your HeartGold ROM</string>
+    <string name="pick_prebuilt_rom">Select an hg-engine ROM (.nds)</string>
+    <string name="pick_prebuilt_rom_alt">Use a prebuilt hg-engine ROM instead</string>
+    <string name="import_save">Import save</string>
+    <string name="export_save">Export save</string>
+    <string name="import_save_warning">This replaces your current in-game save. Export it first if you want to keep it.</string>
+    <string name="save_imported">Save imported.</string>
+    <string name="save_exported">Save exported.</string>
+    <string name="use_jit">Fast CPU emulation (JIT). Turn off if the game crashes.</string>
+    <string name="checking">Checking game files…</string>
+    <string name="status_ready">Ready to play.</string>
+    <string name="status_ready_prebuilt">Ready to play (prebuilt ROM).</string>
+    <string name="status_need_base">To install the game, select a clean English (USA) Pokémon HeartGold ROM dumped from your own cartridge. It will be patched with hg-engine on this device.</string>
+    <string name="status_need_prebuilt">Select an hg-engine ROM you built (test.nds) to start.</string>
+    <string name="status_patching">Applying hg-engine patch…</string>
+    <string name="status_updating">The game was updated. Re-applying the hg-engine patch (your save is kept)…</string>
+    <string name="status_copying">Copying…</string>
+    <string name="error_title">Something went wrong</string>
+    <string name="legal_notice">hg-engine is a free community project and is not affiliated with Nintendo, Game Freak or The Pokémon Company. No game data is included: you must provide a ROM from a cartridge you own. Emulation by melonDS (GPL-3.0).</string>
+
+    <string name="menu_resume">Resume</string>
+    <string name="menu_save_state">Save state</string>
+    <string name="menu_load_state">Load state</string>
+    <string name="menu_fast_forward_on">Fast forward: off</string>
+    <string name="menu_fast_forward_off">Fast forward: on</string>
+    <string name="menu_show_controls">Show touch controls</string>
+    <string name="menu_hide_controls">Hide touch controls</string>
+    <string name="menu_quit">Quit</string>
+    <string name="slot_empty">Slot %1$d — empty</string>
+    <string name="slot_used">Slot %1$d — %2$s</string>
+    <string name="state_saved">Saved to slot %1$d</string>
+    <string name="state_loaded">Loaded slot %1$d</string>
+</resources>

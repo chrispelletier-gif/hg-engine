@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Back up saves and settings, but not the (large, user-supplied) ROMs. -->
+<full-backup-content>
+    <exclude domain="file" path="base.nds" />
+    <exclude domain="file" path="game.nds" />
+</full-backup-content>

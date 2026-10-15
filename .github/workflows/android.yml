@@ -1,0 +1,68 @@
+name: android
+
+on:
+  push:
+    paths:
+      - 'android/**'
+      - '.github/workflows/android.yml'
+  pull_request:
+    paths:
+      - 'android/**'
+      - '.github/workflows/android.yml'
+  workflow_dispatch:
+
+jobs:
+  native-tests:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build native layer for the host
+        run: |
+          cmake -S android/app/src/main/cpp -B build-host -G Ninja -DCMAKE_BUILD_TYPE=Release
+          cmake --build build-host
+
+      - name: Boot test ROM through melonDS (interpreter + JIT)
+        run: |
+          mkdir -p test-out
+          ./build-host/hge_tests test-out
+
+      - name: BPS patch round trip (Python creator -> C++ applier)
+        run: |
+          pip install numpy
+          python3 - <<'PY'
+          import random
+          random.seed(7)
+          src = bytearray(random.randbytes(4 << 20))
+          tgt = bytearray(src[1 << 20:] + random.randbytes(300_000) + src[:1 << 20])
+          for _ in range(200):
+              tgt[random.randrange(len(tgt))] ^= 0xFF
+          open('src.bin', 'wb').write(src)
+          open('tgt.bin', 'wb').write(tgt)
+          PY
+          python3 android/tools/make_bps.py create src.bin tgt.bin test.bps
+          ./build-host/hge_tests bps src.bin test.bps tgt.bin
+
+  apk:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Install NDK and CMake
+        run: yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "ndk;27.2.12479018" "cmake;3.22.1" > /dev/null
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Build APK
+        working-directory: android
+        run: ./gradlew --no-daemon assembleRelease
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hg-engine-android
+          path: android/app/build/outputs/apk/release/*.apk

@@ -36,6 +36,7 @@
 * Hidden Abilities
 * Updated Effects for Existing [Moves](https://github.com/users/BluRosie/projects/3) and [Abilities](https://github.com/users/BluRosie/projects/2)
 * 30 PC Boxes
+* Android app (melonDS-based, see [android/README.md](android/README.md))
 
 *A more comprehensive list of features + a roadmap can be found by visiting the [hg-engine wiki](https://github.com/BluRosie/hg-engine/wiki).  Please read this README and the Wiki thoroughly before asking questions.*
 

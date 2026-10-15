@@ -69,7 +69,7 @@ PYTHON = $(PYTHON_NO_VENV)
 VENV_ACTIVATE =
 endif
 
-.PHONY: clean all dumprom move_narc
+.PHONY: clean all dumprom move_narc android_patch
 
 move_narc clean restore: NOSCAN = 1
 
@@ -598,6 +598,14 @@ endif
 update_machine_moves: $(VENV_ACTIVATE)
 	$(PYTHON) scripts/update_machine_moves.py --descriptions --sprites
 	@echo "Updated item descriptions and sprites. Double check formatting"
+
+# Builds the BPS patch the Android app bundles (see android/README.md). Run `make` first.
+ANDROID_PATCH := android/app/src/main/assets/hg-engine.bps
+android_patch: $(VENV_ACTIVATE)
+	@test -f $(ROMNAME) || (echo "$(ROMNAME) (clean HeartGold ROM) not found" && exit 1)
+	@test -f $(BUILDROM) || (echo "$(BUILDROM) not found; run make first" && exit 1)
+	@mkdir -p $(dir $(ANDROID_PATCH))
+	$(PYTHON) android/tools/make_bps.py create $(ROMNAME) $(BUILDROM) $(ANDROID_PATCH)
 
 
 # needed to keep the $(SDAT_OBJ_DIR)/WAVE_ARC_PV%/00.swav from being detected as an intermediate file
