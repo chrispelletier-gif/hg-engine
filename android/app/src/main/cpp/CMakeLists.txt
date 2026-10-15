@@ -11,9 +11,12 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 set(MELONDS_COMMIT 906e9ebb27da8c6a715cd7abab4abfe8a8d29427)
 
 include(FetchContent)
+if (POLICY CMP0135)
+    cmake_policy(SET CMP0135 NEW) # use extraction time for file timestamps
+endif()
+# Keep this compatible with CMake 3.22, the version the Android SDK ships.
 FetchContent_Declare(melonds
-    URL https://github.com/melonDS-emu/melonDS/archive/${MELONDS_COMMIT}.tar.gz
-    DOWNLOAD_EXTRACT_TIMESTAMP TRUE)
+    URL https://github.com/melonDS-emu/melonDS/archive/${MELONDS_COMMIT}.tar.gz)
 
 # Core only: no Qt/SDL frontend, no desktop OpenGL renderer, no debugger.
 set(BUILD_QT_SDL OFF CACHE BOOL "" FORCE)
