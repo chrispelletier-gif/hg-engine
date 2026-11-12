@@ -598,8 +598,10 @@
 #define BATTLE_SUBSCRIPT_TEATIME                                 (588)
 #define BATTLE_SUBSCRIPT_CHILLY_RECEPTION_JOKE                   (589)
 #define BATTLE_SUBSCRIPT_CHILLY_RECEPTION                        (590)
+#define BATTLE_SUBSCRIPT_INSTRUCT                                (591)
+#define BATTLE_SUBSCRIPT_INSTRUCT_RUN                            (592)
 
-#define MAX_BASE_SUBSCRIPT_NUM 590
+#define MAX_BASE_SUBSCRIPT_NUM 592
 
 // define your custom subscripts below like this
 // #define MOVE_SUBSCRIPT_CUSTOM_1 (MAX_BASE_SUBSCRIPT_NUM + 1)

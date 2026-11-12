@@ -1892,3 +1892,10 @@ The opposing {STRVAR_1 1, 0, 0} corroded\nthe opposing {STRVAR_1 1, 1, 0}’s {S
 The wild {STRVAR_1 1, 0, 0} is preparing\nto tell a chillingly bad joke!
 The opposing {STRVAR_1 1, 0, 0} is preparing\nto tell a chillingly bad joke!
 It’s teatime! Everyone dug in\nto their Berries!
+{STRVAR_1 1, 0, 0} used the move\ninstructed by {STRVAR_1 1, 1, 0}!
+{STRVAR_1 1, 0, 0} used the move\ninstructed by the wild {STRVAR_1 1, 1, 0}!
+{STRVAR_1 1, 0, 0} used the move\ninstructed by the opposing {STRVAR_1 1, 1, 0}!
+The wild {STRVAR_1 1, 0, 0} used the move\ninstructed by {STRVAR_1 1, 1, 0}!
+The wild {STRVAR_1 1, 0, 0} used the move\ninstructed by the wild {STRVAR_1 1, 1, 0}!
+The opposing {STRVAR_1 1, 0, 0} used the move\ninstructed by {STRVAR_1 1, 1, 0}!
+The opposing {STRVAR_1 1, 0, 0} used the move\ninstructed by the opposing {STRVAR_1 1, 1, 0}!
