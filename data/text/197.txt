@@ -1280,9 +1280,9 @@ The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nis reacting to the {STRV
 {STRVAR_1 1, 0, 0}\nhas Mega Evolved into\fMega {STRVAR_1 5, 1, 0}!
 The wild {STRVAR_1 1, 0, 0}\nhas Mega Evolved into\fMega {STRVAR_1 5, 1, 0}!
 The opposing {STRVAR_1 1, 0, 0}\nhas Mega Evolved into\fMega {STRVAR_1 5, 1, 0}!
-The opposing side is too nervous to eat Berries!
-Your side is too nervous to eat Berries!
-Your side is too nervous to eat Berries!
+The opposing side is too nervous\nto eat Berries!
+Your side is too nervous\nto eat Berries!
+Your side is too nervous\nto eat Berries!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nmade it the {STRVAR_1 15, 2, 0} type!
 The wild {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} made it the\f{STRVAR_1 15, 2, 0} type!
 The opposing {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} made it the\f{STRVAR_1 15, 2, 0} type!
@@ -1793,3 +1793,168 @@ The healing wish came true for\nthe wild {STRVAR_1 1, 0, 0}!
 The healing wish came true for\nthe opposing {STRVAR_1 1, 0, 0}!
 It created a bizarre area in which\nPokémon’s held items lose\ftheir effects!
 Magic Room wore off, and held items’\neffects returned to normal!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwas taken over!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwas taken over!
+The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwas taken over!
+{STRVAR_1 1, 0, 0} is drowsing!
+The wild {STRVAR_1 1, 0, 0} is drowsing!
+The opposing {STRVAR_1 1, 0, 0} is drowsing!
+{STRVAR_1 1, 0, 0} gained strength\nfrom the fallen!
+The wild {STRVAR_1 1, 0, 0} gained strength\nfrom the fallen!
+The opposing {STRVAR_1 1, 0, 0} gained strength\nfrom the fallen!
+A supersweet aroma is wafting\nfrom {STRVAR_1 1, 0, 0}!
+A supersweet aroma is wafting\nfrom the wild {STRVAR_1 1, 0, 0}!
+A supersweet aroma is wafting\nfrom the opposing {STRVAR_1 1, 0, 0}!
+{STRVAR_1 1, 0, 0}’s stat changes\nwere removed!
+The wild {STRVAR_1 1, 0, 0}’s stat changes\nwere removed!
+The opposing {STRVAR_1 1, 0, 0}’s stat changes\nwere removed!
+{STRVAR_1 1, 0, 0}\ncan act faster than normal,\fthanks to its Quick Draw!
+The wild {STRVAR_1 1, 0, 0}\ncan act faster than normal,\fthanks to its Quick Draw!
+The opposing {STRVAR_1 1, 0, 0}\ncan act faster than normal,\fthanks to its Quick Draw!
+{STRVAR_1 1, 0, 0} is protected by an aromatic veil!
+The wild {STRVAR_1 1, 0, 0} is protected by an aromatic veil!
+The opposing {STRVAR_1 1, 0, 0} is protected by an aromatic veil!
+{STRVAR_1 1, 0, 0} shared its {STRVAR_1 8, 1, 0}\nwith {STRVAR_1 1, 2, 0}!
+{STRVAR_1 1, 0, 0} shared its {STRVAR_1 8, 1, 0}\nwith the wild {STRVAR_1 1, 2, 0}!
+{STRVAR_1 1, 0, 0} shared its {STRVAR_1 8, 1, 0}\nwith the opposing {STRVAR_1 1, 2, 0}!
+The wild {STRVAR_1 1, 0, 0} shared its {STRVAR_1 8, 1, 0}\nwith {STRVAR_1 1, 2, 0}!
+The wild {STRVAR_1 1, 0, 0} shared its {STRVAR_1 8, 1, 0}\nwith the wild {STRVAR_1 1, 2, 0}!
+The opposing {STRVAR_1 1, 0, 0} shared its {STRVAR_1 8, 1, 0}\nwith {STRVAR_1 1, 2, 0}!
+The opposing {STRVAR_1 1, 0, 0} shared its {STRVAR_1 8, 1, 0}\nwith the opposing {STRVAR_1 1, 2, 0}!
+Neutralizing gas filled the area!
+The effects of the neutralizing gas wore off!
+{STRVAR_1 1, 0, 0} is being salt cured!
+The wild {STRVAR_1 1, 0, 0} is being salt cured!
+The opposing {STRVAR_1 1, 0, 0} is being salt cured!
+{STRVAR_1 1, 0, 0} is hurt by Salt Cure!
+The wild {STRVAR_1 1, 0, 0} is hurt by Salt Cure!
+The opposing {STRVAR_1 1, 0, 0} is hurt by Salt Cure!
+{STRVAR_1 1, 0, 0} got covered in sticky candy syrup!
+The wild {STRVAR_1 1, 0, 0} got covered in sticky candy syrup!
+The opposing {STRVAR_1 1, 0, 0} got covered in sticky candy syrup!
+{STRVAR_1 1, 0, 0} stole the target’s boosted stats!
+The wild {STRVAR_1 1, 0, 0} stole the target’s boosted stats!
+The opposing {STRVAR_1 1, 0, 0} stole the target’s boosted stats!
+{STRVAR_1 1, 0, 0} started heating up its beak!
+The wild {STRVAR_1 1, 0, 0} started heating up its beak!
+The opposing {STRVAR_1 1, 0, 0} started heating up its beak!
+{STRVAR_1 1, 0, 0} set a shell trap!
+The wild {STRVAR_1 1, 0, 0} set a shell trap!
+The opposing {STRVAR_1 1, 0, 0} set a shell trap!
+{STRVAR_1 1, 0, 0}’s shell trap didn’t work!
+The wild {STRVAR_1 1, 0, 0}’s shell trap didn’t work!
+The opposing {STRVAR_1 1, 0, 0}’s shell trap didn’t work!
+{STRVAR_1 1, 0, 0} switched Speed with its target!
+The wild {STRVAR_1 1, 0, 0} switched Speed with its target!
+The opposing {STRVAR_1 1, 0, 0} switched Speed with its target!
+{STRVAR_1 1, 0, 0}’s stat changes were all reversed!
+The wild {STRVAR_1 1, 0, 0}’s stat changes were all reversed!
+The opposing {STRVAR_1 1, 0, 0}’s stat changes were all reversed!
+{STRVAR_1 1, 0, 0} became weaker to fire!
+The wild {STRVAR_1 1, 0, 0} became weaker to fire!
+The opposing {STRVAR_1 1, 0, 0} became weaker to fire!
+{STRVAR_1 1, 0, 0} can no longer escape because it used No Retreat!
+The wild {STRVAR_1 1, 0, 0} can no longer escape because it used No Retreat!
+The opposing {STRVAR_1 1, 0, 0} can no longer escape because it used No Retreat!
+{STRVAR_1 1, 0, 0}’s moves have been electrified!
+The wild {STRVAR_1 1, 0, 0}’s moves have been electrified!
+The opposing {STRVAR_1 1, 0, 0}’s moves have been electrified!
+{STRVAR_1 1, 0, 0} can no longer escape because of Octolock!
+The wild {STRVAR_1 1, 0, 0} can no longer escape because of Octolock!
+The opposing {STRVAR_1 1, 0, 0} can no longer escape because of Octolock!
+No one will be able to run away during the next turn!
+It created a bizarre area in which Defense and Sp. Def stats are swapped!
+Wonder Room wore off, and Defense and Sp. Def stats returned to normal!
+{STRVAR_1 1, 0, 0}’s type became the same as\n{STRVAR_1 1, 1, 0}’s type!
+{STRVAR_1 1, 0, 0}’s type became the same as\nthe wild {STRVAR_1 1, 1, 0}’s type!
+{STRVAR_1 1, 0, 0}’s type became the same as\nthe opposing {STRVAR_1 1, 1, 0}’s type!
+The wild {STRVAR_1 1, 0, 0}’s type became the same as\n{STRVAR_1 1, 1, 0}’s type!
+The wild {STRVAR_1 1, 0, 0}’s type became the same as\nthe wild {STRVAR_1 1, 1, 0}’s type!
+The opposing {STRVAR_1 1, 0, 0}’s type became the same as\n{STRVAR_1 1, 1, 0}’s type!
+The opposing {STRVAR_1 1, 0, 0}’s type became the same as\nthe opposing {STRVAR_1 1, 1, 0}’s type!
+{STRVAR_1 1, 0, 0} was hurled into the air!
+The wild {STRVAR_1 1, 0, 0} was hurled into the air!
+The opposing {STRVAR_1 1, 0, 0} was hurled into the air!
+{STRVAR_1 1, 0, 0} was freed from the telekinesis!
+The wild {STRVAR_1 1, 0, 0} was freed from the telekinesis!
+The opposing {STRVAR_1 1, 0, 0} was freed from the telekinesis!
+{STRVAR_1 1, 0, 0} swapped the battle effects affecting each side of the field!
+The wild {STRVAR_1 1, 0, 0} swapped the battle effects affecting each side of the field!
+The opposing {STRVAR_1 1, 0, 0} swapped the battle effects affecting each side of the field!
+{STRVAR_1 1, 0, 0} corroded\n{STRVAR_1 1, 1, 0}’s {STRVAR_1 8, 2, 0}!
+{STRVAR_1 1, 0, 0} corroded\nthe wild {STRVAR_1 1, 1, 0}’s {STRVAR_1 8, 2, 0}!
+{STRVAR_1 1, 0, 0} corroded\nthe opposing {STRVAR_1 1, 1, 0}’s {STRVAR_1 8, 2, 0}!
+The wild {STRVAR_1 1, 0, 0} corroded\n{STRVAR_1 1, 1, 0}’s {STRVAR_1 8, 2, 0}!
+The wild {STRVAR_1 1, 0, 0} corroded\nthe wild {STRVAR_1 1, 1, 0}’s {STRVAR_1 8, 2, 0}!
+The opposing {STRVAR_1 1, 0, 0} corroded\n{STRVAR_1 1, 1, 0}’s {STRVAR_1 8, 2, 0}!
+The opposing {STRVAR_1 1, 0, 0} corroded\nthe opposing {STRVAR_1 1, 1, 0}’s {STRVAR_1 8, 2, 0}!
+{STRVAR_1 1, 0, 0} is preparing\nto tell a chillingly bad joke!
+The wild {STRVAR_1 1, 0, 0} is preparing\nto tell a chillingly bad joke!
+The opposing {STRVAR_1 1, 0, 0} is preparing\nto tell a chillingly bad joke!
+It’s teatime! Everyone dug in\nto their Berries!
+{STRVAR_1 1, 0, 0} used the move\ninstructed by {STRVAR_1 1, 1, 0}!
+{STRVAR_1 1, 0, 0} used the move\ninstructed by the wild {STRVAR_1 1, 1, 0}!
+{STRVAR_1 1, 0, 0} used the move\ninstructed by the opposing {STRVAR_1 1, 1, 0}!
+The wild {STRVAR_1 1, 0, 0} used the move\ninstructed by {STRVAR_1 1, 1, 0}!
+The wild {STRVAR_1 1, 0, 0} used the move\ninstructed by the wild {STRVAR_1 1, 1, 0}!
+The opposing {STRVAR_1 1, 0, 0} used the move\ninstructed by {STRVAR_1 1, 1, 0}!
+The opposing {STRVAR_1 1, 0, 0} used the move\ninstructed by the opposing {STRVAR_1 1, 1, 0}!
+{STRVAR_1 1, 0, 0} is waiting\nfor {STRVAR_1 1, 1, 0}’s move...
+{STRVAR_1 1, 0, 0} is waiting\nfor the wild {STRVAR_1 1, 1, 0}’s move...
+{STRVAR_1 1, 0, 0} is waiting\nfor the opposing {STRVAR_1 1, 1, 0}’s move...
+The wild {STRVAR_1 1, 0, 0} is waiting\nfor {STRVAR_1 1, 1, 0}’s move...
+The wild {STRVAR_1 1, 0, 0} is waiting\nfor the wild {STRVAR_1 1, 1, 0}’s move...
+The opposing {STRVAR_1 1, 0, 0} is waiting\nfor {STRVAR_1 1, 1, 0}’s move...
+The opposing {STRVAR_1 1, 0, 0} is waiting\nfor the opposing {STRVAR_1 1, 1, 0}’s move...
+The two moves have become one!\nIt’s a combined move!
+{STRVAR_1 1, 0, 0} is hurt by the sea of fire!
+The wild {STRVAR_1 1, 0, 0} is hurt by the sea of fire!
+The opposing {STRVAR_1 1, 0, 0} is hurt by the sea of fire!
+A sea of fire enveloped\nyour team!
+A sea of fire enveloped\nthe opposing team!
+The sea of fire around\nyour team disappeared!
+The sea of fire around\nthe opposing team disappeared!
+A rainbow appeared in the sky\non your team’s side!
+A rainbow appeared in the sky\non the opposing team’s side!
+The rainbow on your team’s side\ndisappeared!
+The rainbow on the opposing team’s side\ndisappeared!
+A swamp enveloped\nyour team!
+A swamp enveloped\nthe opposing team!
+The swamp around your team\ndisappeared!
+The swamp around the opposing team\ndisappeared!
+{STRVAR_1 1, 0, 0} and {STRVAR_1 1, 1, 0}\nswitched places!
+{STRVAR_1 1, 0, 0} and the wild {STRVAR_1 1, 1, 0}\nswitched places!
+{STRVAR_1 1, 0, 0} and the opposing {STRVAR_1 1, 1, 0}\nswitched places!
+The wild {STRVAR_1 1, 0, 0} and {STRVAR_1 1, 1, 0}\nswitched places!
+The wild {STRVAR_1 1, 0, 0} and the wild {STRVAR_1 1, 1, 0}\nswitched places!
+The opposing {STRVAR_1 1, 0, 0} and {STRVAR_1 1, 1, 0}\nswitched places!
+The opposing {STRVAR_1 1, 0, 0} and the opposing {STRVAR_1 1, 1, 0}\nswitched places!
+{STRVAR_1 1, 0, 0} was revived and\nis ready to fight again!
+The wild {STRVAR_1 1, 0, 0} was revived and\nis ready to fight again!
+The opposing {STRVAR_1 1, 0, 0} was revived and\nis ready to fight again!
+{STRVAR_1 1, 0, 0} was swallowed by\n{STRVAR_1 1, 1, 0} and became\f{STRVAR_1 1, 1, 0}’s commander!
+{STRVAR_1 1, 0, 0} was swallowed by\nthe wild {STRVAR_1 1, 1, 0} and became\fthe wild {STRVAR_1 1, 1, 0}’s commander!
+{STRVAR_1 1, 0, 0} was swallowed by\nthe opposing {STRVAR_1 1, 1, 0} and became\fthe opposing {STRVAR_1 1, 1, 0}’s commander!
+The wild {STRVAR_1 1, 0, 0} was swallowed by\n{STRVAR_1 1, 1, 0} and became\f{STRVAR_1 1, 1, 0}’s commander!
+The wild {STRVAR_1 1, 0, 0} was swallowed by\nthe wild {STRVAR_1 1, 1, 0} and became\fthe wild {STRVAR_1 1, 1, 0}’s commander!
+The opposing {STRVAR_1 1, 0, 0} was swallowed by\n{STRVAR_1 1, 1, 0} and became\f{STRVAR_1 1, 1, 0}’s commander!
+The opposing {STRVAR_1 1, 0, 0} was swallowed by\nthe opposing {STRVAR_1 1, 1, 0} and became\fthe opposing {STRVAR_1 1, 1, 0}’s commander!
+{STRVAR_1 1, 0, 0} took {STRVAR_1 1, 1, 0}\ninto the sky!
+{STRVAR_1 1, 0, 0} took the wild {STRVAR_1 1, 1, 0}\ninto the sky!
+{STRVAR_1 1, 0, 0} took the opposing {STRVAR_1 1, 1, 0}\ninto the sky!
+The wild {STRVAR_1 1, 0, 0} took {STRVAR_1 1, 1, 0}\ninto the sky!
+The wild {STRVAR_1 1, 0, 0} took the wild {STRVAR_1 1, 1, 0}\ninto the sky!
+The opposing {STRVAR_1 1, 0, 0} took {STRVAR_1 1, 1, 0}\ninto the sky!
+The opposing {STRVAR_1 1, 0, 0} took the opposing {STRVAR_1 1, 1, 0}\ninto the sky!
+{STRVAR_1 1, 0, 0} was freed\nfrom the Sky Drop!
+The wild {STRVAR_1 1, 0, 0} was freed\nfrom the Sky Drop!
+The opposing {STRVAR_1 1, 0, 0} was freed\nfrom the Sky Drop!
+{STRVAR_1 1, 0, 0} is too heavy\nto be lifted!
+The wild {STRVAR_1 1, 0, 0} is too heavy\nto be lifted!
+The opposing {STRVAR_1 1, 0, 0} is too heavy\nto be lifted!
+{STRVAR_1 1, 0, 0} made its shell gleam!\nIt’s distorting type matchups!
+The wild {STRVAR_1 1, 0, 0} made its shell gleam!\nIt’s distorting type matchups!
+The opposing {STRVAR_1 1, 0, 0} made its shell gleam!\nIt’s distorting type matchups!
+{STRVAR_1 1, 0, 0} found a\n{STRVAR_1 8, 1, 0}!
+The wild {STRVAR_1 1, 0, 0} found a\n{STRVAR_1 8, 1, 0}!
+The opposing {STRVAR_1 1, 0, 0} found a\n{STRVAR_1 8, 1, 0}!

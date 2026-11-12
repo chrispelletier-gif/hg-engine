@@ -1,0 +1,46 @@
+#include "constants/battle_constants.h"
+#include "constants/battle_message_constants.h"
+.include "battle_commands.inc"
+.data
+// Chilly Reception (port addition): snow, then the user switches out. Fails only if it is
+// already snowing and the user can't switch (Showdown: weather + selfSwitch).
+_000:
+    TryReplaceFaintedMon BATTLER_CATEGORY_ATTACKER, TRUE, _noSwitch
+    Call BATTLE_SUBSCRIPT_ATTACK_MESSAGE_AND_ANIMATION
+    CompareVarToValue OPCODE_FLAG_SET, BSCRIPT_VAR_FIELD_CONDITION, FIELD_CONDITION_SNOW_TEMP, _switch
+    Call BATTLE_SUBSCRIPT_HANDLE_SNOW_TEMPORARY
+_switch:
+    UpdateVarFromVar OPCODE_SET, BSCRIPT_VAR_BATTLER_FAINTED, BSCRIPT_VAR_LAST_BATTLER_ID
+    UpdateVarFromVar OPCODE_SET, BSCRIPT_VAR_BATTLER_SWITCH, BSCRIPT_VAR_BATTLER_ATTACKER
+    // {0} went back to {1}!
+    PrintMessage 1067, TAG_NICKNAME_TRNAME, BATTLER_CATEGORY_SWITCHED_MON, BATTLER_CATEGORY_SWITCHED_MON
+    Wait
+    WaitButtonABTime 30
+    SetCurrentMoveSwitchingStatus CURRENT_MOVE_SWITCH_PENDING
+    Call BATTLE_SUBSCRIPT_PURSUIT
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_ATTACKER, BMON_DATA_HP, 0, _end
+    TryRestoreStatusOnSwitch BATTLER_CATEGORY_ATTACKER, _statusKept
+    UpdateMonData OPCODE_SET, BATTLER_CATEGORY_ATTACKER, BMON_DATA_STATUS, STATUS_NONE
+_statusKept:
+    TryActivateZeroToHero BATTLER_CATEGORY_ATTACKER
+    UpdateVar OPCODE_FLAG_OFF, BSCRIPT_VAR_BATTLE_STATUS, BATTLE_STATUS_MOVE_ANIMATIONS_OFF
+    DeletePokemon BATTLER_CATEGORY_ATTACKER
+    Wait
+    HealthbarSlideOut BATTLER_CATEGORY_ATTACKER
+    Wait
+    UpdateVar OPCODE_FLAG_ON, BSCRIPT_VAR_BATTLE_STATUS_2, BATTLE_STATUS2_UTURN
+    UpdateVar OPCODE_FLAG_OFF, BSCRIPT_VAR_BATTLE_STATUS, BATTLE_STATUS_SYNCRONIZE
+    UpdateVar OPCODE_SET, BSCRIPT_VAR_ATTACKER_SELF_TURN_STATUS_FLAGS, SELF_TURN_FLAG_CLEAR
+_end:
+    End
+_noSwitch:
+    CompareVarToValue OPCODE_FLAG_SET, BSCRIPT_VAR_FIELD_CONDITION, FIELD_CONDITION_SNOW_TEMP, _fail
+    Call BATTLE_SUBSCRIPT_ATTACK_MESSAGE_AND_ANIMATION
+    Call BATTLE_SUBSCRIPT_HANDLE_SNOW_TEMPORARY
+    End
+_fail:
+    PrintAttackMessage
+    Wait
+    WaitButtonABTime 30
+    Call BATTLE_SUBSCRIPT_BUT_IT_FAILED
+    End

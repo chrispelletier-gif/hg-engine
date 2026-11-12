@@ -178,19 +178,21 @@ _AfterMessage:
     Wait
     SetHealthbarStatus BATTLER_CATEGORY_SIDE_EFFECT_MON, BATTLE_ANIMATION_POISONED
     WaitButtonABTime 30
+    // Poison Puppeteer (Pecharunt): checks are inside; this script is near the 2600-byte buffer limit.
+    Call BATTLE_SUBSCRIPT_POISON_PUPPETEER
     CompareVarToValue OPCODE_FLAG_SET, BSCRIPT_VAR_BATTLE_STATUS, BATTLE_STATUS_SYNCRONIZE, _CleanupSynchronize
     UpdateVar OPCODE_FLAG_ON, BSCRIPT_VAR_BATTLE_STATUS, BATTLE_STATUS_SYNCRONIZE
     TrySynchronizeStatus _AfterSynchronize
     CallFromVar BSCRIPT_VAR_TEMP_DATA
 
 _AfterSynchronize:
-    TryCureStatusBerry BATTLER_CATEGORY_DEFENDER, _End
+    TryEatBerry BATTLER_CATEGORY_DEFENDER, HELD_ITEM_USE_REMOVE_CONDITION, _End
     CallFromVar BSCRIPT_VAR_TEMP_DATA
     End
 
 _CleanupSynchronize:
     UpdateVar OPCODE_FLAG_OFF, BSCRIPT_VAR_BATTLE_STATUS, BATTLE_STATUS_SYNCRONIZE
-    TryCureStatusBerry BATTLER_CATEGORY_SIDE_EFFECT_MON, _End
+    TryEatBerry BATTLER_CATEGORY_SIDE_EFFECT_MON, HELD_ITEM_USE_REMOVE_CONDITION, _End
     CallFromVar BSCRIPT_VAR_TEMP_DATA
 
 _End:

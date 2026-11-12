@@ -1,0 +1,31 @@
+#include "constants/battle_constants.h"
+#include "constants/battle_message_constants.h"
+.include "battle_commands.inc"
+
+.data
+
+// Supersweet Syrup (once per battle): lowers the Evasion of every opposing Pokémon by 1.
+_Start:
+    AbilityPopup BATTLER_CATEGORY_MSG_BATTLER_TEMP
+    // A supersweet aroma is wafting from {0}!
+    PrintMessage BATTLE_MSG_SUPERSWEET_SYRUP, TAG_NICKNAME, BATTLER_CATEGORY_MSG_BATTLER_TEMP
+    Wait
+    WaitButtonABTime 30
+    UpdateVar OPCODE_SET, BSCRIPT_VAR_BATTLER_SPEED_TEMP, 0
+    UpdateVarFromVar OPCODE_SET, BSCRIPT_VAR_LAST_BATTLER_ID, BSCRIPT_VAR_BATTLER_ATTACKER
+    UpdateVarFromVar OPCODE_SET, BSCRIPT_VAR_BATTLER_ATTACKER, BSCRIPT_VAR_MSG_BATTLER_TEMP
+
+_Loop:
+    GetMonBySpeedOrder BSCRIPT_VAR_BATTLER_STAT_CHANGE
+    IfSameSide BATTLER_CATEGORY_ATTACKER, BATTLER_CATEGORY_SIDE_EFFECT_MON, _Next
+    CheckSubstitute BATTLER_CATEGORY_SIDE_EFFECT_MON, _Next
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_SIDE_EFFECT_MON, BMON_DATA_HP, 0, _Next
+    UpdateVar OPCODE_SET, BSCRIPT_VAR_SIDE_EFFECT_PARAM, MOVE_SUBSCRIPT_PTR_EVASION_DOWN_1_STAGE
+    UpdateVar OPCODE_SET, BSCRIPT_VAR_SIDE_EFFECT_TYPE, SIDE_EFFECT_TYPE_ABILITY
+    Call BATTLE_SUBSCRIPT_UPDATE_STAT_STAGE
+
+_Next:
+    UpdateVar OPCODE_ADD, BSCRIPT_VAR_BATTLER_SPEED_TEMP, 1
+    GoToIfValidMon BSCRIPT_VAR_BATTLER_SPEED_TEMP, _Loop
+    UpdateVarFromVar OPCODE_SET, BSCRIPT_VAR_BATTLER_ATTACKER, BSCRIPT_VAR_LAST_BATTLER_ID
+    End

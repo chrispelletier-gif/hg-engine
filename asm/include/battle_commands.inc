@@ -1547,10 +1547,11 @@
     .long (((\arg_0 - .) / 4) - 1)
     .endm
 
-    .macro TryCureStatusBerry arg_0, arg_1
+    .macro TryEatBerry arg_0, arg_1, arg_2
     .long 283
     .long \arg_0
-    .long (((\arg_1 - .) / 4) - 1)
+    .long \arg_1
+    .long (((\arg_2 - .) / 4) - 1)
     .endm
 
     .macro BatchUpdateHealthBar
@@ -1633,7 +1634,84 @@
     .long (((\arg_2 - .) / 4) - 1)
     .endm
 
-    .equ BASE_ENGINE_BTL_SCR_CMDS_MAX, 298
+    .macro TryActivateReceiver arg_0, arg_1
+    .long 299
+    .long \arg_0
+    .long (((\arg_1 - .) / 4) - 1)
+    .endm
+
+    .macro TryActivateEmergencyExit arg_0, arg_1
+    .long 300
+    .long \arg_0
+    .long (((\arg_1 - .) / 4) - 1)
+    .endm
+
+    .macro TryClearUnnerve arg_0, arg_1
+    .long 301
+    .long \arg_0
+    .long (((\arg_1 - .) / 4) - 1)
+    .endm
+
+    // port additions
+    .macro TryMirrorArmor normal, reflectDirect, absorbed, absorbedDirect
+    .long 302
+    .long (((\normal - .) / 4) - 4)
+    .long (((\reflectDirect - .) / 4) - 3)
+    .long (((\absorbed - .) / 4) - 2)
+    .long (((\absorbedDirect - .) / 4) - 1)
+    .endm
+
+    .macro EndMirrorArmor
+    .long 303
+    .endm
+
+    .macro TryOpportunistBoost done
+    .long 304
+    .long (((\done - .) / 4) - 1)
+    .endm
+
+    .macro TryEndNeutralizingGas battler, skip
+    .long 305
+    .long \battler
+    .long (((\skip - .) / 4) - 1)
+    .endm
+
+    .macro TryEerieSpell fail
+    .long 306
+    .long (((\fail - .) / 4) - 1)
+    .endm
+
+    .macro TryTripleArrows
+    .long 307
+    .endm
+
+    .macro JumpIfStatsNotRaisedThisTurn fail
+    .long 308
+    .long (((\fail - .) / 4) - 1)
+    .endm
+
+    // kind: 0 = Salt Cure, 1 = Syrup Bomb (port volatiles on the defender)
+    .macro TryStartPortVolatile kind, fail
+    .long 309
+    .long \kind
+    .long (((\fail - .) / 4) - 1)
+    .endm
+
+    // Spectral Thief: next stolen stat -> SIDE_EFFECT_PARAM for the attacker, or jump when done
+    .macro TrySpectralThiefStat done
+    .long 310
+    .long (((\done - .) / 4) - 1)
+    .endm
+
+    // port status moves: op 0 = start (subscript -> TEMP_DATA, jump if it fails),
+    // 1 = next target -> side-effect mon (jump when done), 2 = apply to it (jump if no effect)
+    .macro PortMove op, label
+    .long 311
+    .long \op
+    .long (((\label - .) / 4) - 1)
+    .endm
+
+    .equ BASE_ENGINE_BTL_SCR_CMDS_MAX, 311
 
     // .macro YourCustomCommand
     // .long (BASE_ENGINE_BTL_SCR_CMDS_MAX + 1)

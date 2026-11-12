@@ -4,6 +4,33 @@
 .data
 
 _000:
+    // Mirror Armor (port addition): a drop from another Pokémon bounces back to it
+    TryMirrorArmor _Normal, _ReflectDirect, _Absorbed, _AbsorbedDirect
+    AbilityPopup BATTLER_CATEGORY_MSG_BATTLER_TEMP
+    Call BATTLE_SUBSCRIPT_UPDATE_STAT_STAGE
+    EndMirrorArmor
+    End
+
+_ReflectDirect:
+    PrintAttackMessage
+    Wait
+    PlayMoveAnimation BATTLER_CATEGORY_ATTACKER
+    Wait
+    UpdateVarFromVar OPCODE_SET, BSCRIPT_VAR_BATTLER_ATTACKER, BSCRIPT_VAR_MSG_BATTLER_TEMP
+    AbilityPopup BATTLER_CATEGORY_MSG_BATTLER_TEMP
+    Call BATTLE_SUBSCRIPT_UPDATE_STAT_STAGE
+    EndMirrorArmor
+    End
+
+_AbsorbedDirect:
+    PrintAttackMessage
+    Wait
+    PlayMoveAnimation BATTLER_CATEGORY_ATTACKER
+    Wait
+_Absorbed:
+    End
+
+_Normal:
     ChangeStatStage _051, _069, _070, _AbilityBlock, _AbilityBlockAbility
     CompareVarToValue OPCODE_NEQ, BSCRIPT_VAR_SIDE_EFFECT_TYPE, SIDE_EFFECT_TYPE_DIRECT, _010
     PrintAttackMessage

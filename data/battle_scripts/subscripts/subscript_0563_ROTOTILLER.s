@@ -1,0 +1,31 @@
+#include "constants/battle_constants.h"
+#include "constants/battle_message_constants.h"
+.include "battle_commands.inc"
+
+.data
+
+// Rototiller (port addition): airborne Pokemon are immune, grounded Grass types +1 Atk/SpA
+_000:
+    Call BATTLE_SUBSCRIPT_ATTACK_MESSAGE_AND_ANIMATION
+_loop:
+    PortMove 1, _end
+    PortMove 2, _airborne
+    CheckShouldNotTurnOffMultiStatAnim BATTLER_CATEGORY_SIDE_EFFECT_MON, _skipShown
+    UpdateVar OPCODE_FLAG_ON, BSCRIPT_VAR_BATTLE_STATUS_2, BATTLE_STATUS2_STAT_STAGE_CHANGE_SHOWN
+_skipShown:
+    UpdateVar OPCODE_SET, BSCRIPT_VAR_SIDE_EFFECT_PARAM, MOVE_SUBSCRIPT_PTR_ATTACK_UP_1_STAGE
+    Call BATTLE_SUBSCRIPT_UPDATE_STAT_STAGE
+    UpdateVar OPCODE_FLAG_ON, BSCRIPT_VAR_BATTLE_STATUS, BATTLE_STATUS_MESSAGES_OFF
+    UpdateVar OPCODE_SET, BSCRIPT_VAR_SIDE_EFFECT_PARAM, MOVE_SUBSCRIPT_PTR_SP_ATTACK_UP_1_STAGE
+    Call BATTLE_SUBSCRIPT_UPDATE_STAT_STAGE
+    UpdateVar OPCODE_FLAG_OFF, BSCRIPT_VAR_BATTLE_STATUS_2, BATTLE_STATUS2_UPDATE_STAT_STAGES
+    UpdateVar OPCODE_FLAG_OFF, BSCRIPT_VAR_BATTLE_STATUS_2, BATTLE_STATUS2_STAT_STAGE_CHANGE_SHOWN
+    GoTo _loop
+_airborne:
+    // It doesn’t affect {0}...
+    PrintMessage 27, TAG_NICKNAME, BATTLER_CATEGORY_SIDE_EFFECT_MON
+    Wait
+    WaitButtonABTime 30
+    GoTo _loop
+_end:
+    End
