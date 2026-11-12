@@ -41,6 +41,8 @@ a010_690:
     shadetargetmon 29, 29, 29
     playsepan 1874, 117
     addparticle 0, 1, 17
+    // port fix: callback 17 (ConfigureFromScript) reads its cmd37 block; it was missing here
+    cmd37 6, 0, 1, 2, 0, 0, 0, "NaN", "NaN"
     waitparticle
 
     callfunction 33, 5, 0, 1, 12, 0, 6912, "NaN", "NaN", "NaN", "NaN", "NaN"
