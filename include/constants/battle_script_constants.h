@@ -600,8 +600,16 @@
 #define BATTLE_SUBSCRIPT_CHILLY_RECEPTION                        (590)
 #define BATTLE_SUBSCRIPT_INSTRUCT                                (591)
 #define BATTLE_SUBSCRIPT_INSTRUCT_RUN                            (592)
+#define BATTLE_SUBSCRIPT_PLEDGE_WAIT                              (593)
+#define BATTLE_SUBSCRIPT_SEA_OF_FIRE                              (594)
+#define BATTLE_SUBSCRIPT_RAINBOW                                  (595)
+#define BATTLE_SUBSCRIPT_SWAMP                                    (596)
+#define BATTLE_SUBSCRIPT_SEA_OF_FIRE_HURT                         (597)
+#define BATTLE_SUBSCRIPT_SEA_OF_FIRE_END                          (598)
+#define BATTLE_SUBSCRIPT_RAINBOW_END                              (599)
+#define BATTLE_SUBSCRIPT_SWAMP_END                                (600)
 
-#define MAX_BASE_SUBSCRIPT_NUM 592
+#define MAX_BASE_SUBSCRIPT_NUM 600
 
 // define your custom subscripts below like this
 // #define MOVE_SUBSCRIPT_CUSTOM_1 (MAX_BASE_SUBSCRIPT_NUM + 1)

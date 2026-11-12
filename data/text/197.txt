@@ -1899,3 +1899,26 @@ The wild {STRVAR_1 1, 0, 0} used the move\ninstructed by {STRVAR_1 1, 1, 0}!
 The wild {STRVAR_1 1, 0, 0} used the move\ninstructed by the wild {STRVAR_1 1, 1, 0}!
 The opposing {STRVAR_1 1, 0, 0} used the move\ninstructed by {STRVAR_1 1, 1, 0}!
 The opposing {STRVAR_1 1, 0, 0} used the move\ninstructed by the opposing {STRVAR_1 1, 1, 0}!
+{STRVAR_1 1, 0, 0} is waiting\nfor {STRVAR_1 1, 1, 0}’s move...
+{STRVAR_1 1, 0, 0} is waiting\nfor the wild {STRVAR_1 1, 1, 0}’s move...
+{STRVAR_1 1, 0, 0} is waiting\nfor the opposing {STRVAR_1 1, 1, 0}’s move...
+The wild {STRVAR_1 1, 0, 0} is waiting\nfor {STRVAR_1 1, 1, 0}’s move...
+The wild {STRVAR_1 1, 0, 0} is waiting\nfor the wild {STRVAR_1 1, 1, 0}’s move...
+The opposing {STRVAR_1 1, 0, 0} is waiting\nfor {STRVAR_1 1, 1, 0}’s move...
+The opposing {STRVAR_1 1, 0, 0} is waiting\nfor the opposing {STRVAR_1 1, 1, 0}’s move...
+The two moves have become one!\nIt’s a combined move!
+{STRVAR_1 1, 0, 0} is hurt by the sea of fire!
+The wild {STRVAR_1 1, 0, 0} is hurt by the sea of fire!
+The opposing {STRVAR_1 1, 0, 0} is hurt by the sea of fire!
+A sea of fire enveloped\nyour team!
+A sea of fire enveloped\nthe opposing team!
+The sea of fire around\nyour team disappeared!
+The sea of fire around\nthe opposing team disappeared!
+A rainbow appeared in the sky\non your team’s side!
+A rainbow appeared in the sky\non the opposing team’s side!
+The rainbow on your team’s side\ndisappeared!
+The rainbow on the opposing team’s side\ndisappeared!
+A swamp enveloped\nyour team!
+A swamp enveloped\nthe opposing team!
+The swamp around your team\ndisappeared!
+The swamp around the opposing team\ndisappeared!
