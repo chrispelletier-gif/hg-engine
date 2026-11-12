@@ -1665,7 +1665,12 @@
     .long 303
     .endm
 
-    .equ BASE_ENGINE_BTL_SCR_CMDS_MAX, 303
+    .macro TryOpportunistBoost done
+    .long 304
+    .long (((\done - .) / 4) - 1)
+    .endm
+
+    .equ BASE_ENGINE_BTL_SCR_CMDS_MAX, 304
 
     // .macro YourCustomCommand
     // .long (BASE_ENGINE_BTL_SCR_CMDS_MAX + 1)
