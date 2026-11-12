@@ -561,8 +561,12 @@
 #define BATTLE_SUBSCRIPT_SYRUP_BOMB_SPEED                       (552)
 #define BATTLE_SUBSCRIPT_CORE_ENFORCER                          (553)
 #define BATTLE_SUBSCRIPT_SPECTRAL_THIEF                         (554)
+#define BATTLE_SUBSCRIPT_BEAK_BLAST_HEAT                        (555)
+#define BATTLE_SUBSCRIPT_BEAK_BLAST_BURN                        (556)
+#define BATTLE_SUBSCRIPT_SHELL_TRAP_SET                         (557)
+#define BATTLE_SUBSCRIPT_SHELL_TRAP_FAIL                        (558)
 
-#define MAX_BASE_SUBSCRIPT_NUM 554
+#define MAX_BASE_SUBSCRIPT_NUM 558
 
 // define your custom subscripts below like this
 // #define MOVE_SUBSCRIPT_CUSTOM_1 (MAX_BASE_SUBSCRIPT_NUM + 1)
