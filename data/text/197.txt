@@ -1922,3 +1922,10 @@ A swamp enveloped\nyour team!
 A swamp enveloped\nthe opposing team!
 The swamp around your team\ndisappeared!
 The swamp around the opposing team\ndisappeared!
+{STRVAR_1 1, 0, 0} and {STRVAR_1 1, 1, 0}\nswitched places!
+{STRVAR_1 1, 0, 0} and the wild {STRVAR_1 1, 1, 0}\nswitched places!
+{STRVAR_1 1, 0, 0} and the opposing {STRVAR_1 1, 1, 0}\nswitched places!
+The wild {STRVAR_1 1, 0, 0} and {STRVAR_1 1, 1, 0}\nswitched places!
+The wild {STRVAR_1 1, 0, 0} and the wild {STRVAR_1 1, 1, 0}\nswitched places!
+The opposing {STRVAR_1 1, 0, 0} and {STRVAR_1 1, 1, 0}\nswitched places!
+The opposing {STRVAR_1 1, 0, 0} and the opposing {STRVAR_1 1, 1, 0}\nswitched places!
