@@ -551,8 +551,10 @@
 #define BATTLE_SUBSCRIPT_GULP_MISSILE_CATCH                     (542)
 #define BATTLE_SUBSCRIPT_GULP_MISSILE_DIVE                      (543)
 #define BATTLE_SUBSCRIPT_GULP_MISSILE_SPIT                      (544)
+#define BATTLE_SUBSCRIPT_EERIE_SPELL                            (545)
+#define BATTLE_SUBSCRIPT_TRIPLE_ARROWS                          (546)
 
-#define MAX_BASE_SUBSCRIPT_NUM 544
+#define MAX_BASE_SUBSCRIPT_NUM 546
 
 // define your custom subscripts below like this
 // #define MOVE_SUBSCRIPT_CUSTOM_1 (MAX_BASE_SUBSCRIPT_NUM + 1)
@@ -776,7 +778,11 @@
 #define MOVE_SUBSCRIPT_PTR_LASER_FOCUS                      (214)
 #define MOVE_SUBSCRIPT_PTR_GIVE_HELD_ITEM                   (215)
 
-#define MAX_BASE_SUBSCRIPT_PTR_NUM (215)
+// port additions
+#define MOVE_SUBSCRIPT_PTR_EERIE_SPELL                      (216)
+#define MOVE_SUBSCRIPT_PTR_TRIPLE_ARROWS                    (217)
+
+#define MAX_BASE_SUBSCRIPT_PTR_NUM (217)
 
 // define your custom subscripts below like this
 // #define MOVE_SUBSCRIPT_PTR_CUSTOM_1 (MAX_BASE_SUBSCRIPT_PTR_NUM + 1)

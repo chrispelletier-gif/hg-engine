@@ -1676,7 +1676,16 @@
     .long (((\skip - .) / 4) - 1)
     .endm
 
-    .equ BASE_ENGINE_BTL_SCR_CMDS_MAX, 305
+    .macro TryEerieSpell fail
+    .long 306
+    .long (((\fail - .) / 4) - 1)
+    .endm
+
+    .macro TryTripleArrows
+    .long 307
+    .endm
+
+    .equ BASE_ENGINE_BTL_SCR_CMDS_MAX, 307
 
     // .macro YourCustomCommand
     // .long (BASE_ENGINE_BTL_SCR_CMDS_MAX + 1)
