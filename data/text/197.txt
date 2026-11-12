@@ -1878,3 +1878,13 @@ The opposing {STRVAR_1 1, 0, 0} was hurled into the air!
 {STRVAR_1 1, 0, 0} was freed from the telekinesis!
 The wild {STRVAR_1 1, 0, 0} was freed from the telekinesis!
 The opposing {STRVAR_1 1, 0, 0} was freed from the telekinesis!
+{STRVAR_1 1, 0, 0} swapped the battle effects affecting each side of the field!
+The wild {STRVAR_1 1, 0, 0} swapped the battle effects affecting each side of the field!
+The opposing {STRVAR_1 1, 0, 0} swapped the battle effects affecting each side of the field!
+{STRVAR_1 1, 0, 0} corroded\n{STRVAR_1 1, 1, 0}’s {STRVAR_1 8, 2, 0}!
+{STRVAR_1 1, 0, 0} corroded\nthe wild {STRVAR_1 1, 1, 0}’s {STRVAR_1 8, 2, 0}!
+{STRVAR_1 1, 0, 0} corroded\nthe opposing {STRVAR_1 1, 1, 0}’s {STRVAR_1 8, 2, 0}!
+The wild {STRVAR_1 1, 0, 0} corroded\n{STRVAR_1 1, 1, 0}’s {STRVAR_1 8, 2, 0}!
+The wild {STRVAR_1 1, 0, 0} corroded\nthe wild {STRVAR_1 1, 1, 0}’s {STRVAR_1 8, 2, 0}!
+The opposing {STRVAR_1 1, 0, 0} corroded\n{STRVAR_1 1, 1, 0}’s {STRVAR_1 8, 2, 0}!
+The opposing {STRVAR_1 1, 0, 0} corroded\nthe opposing {STRVAR_1 1, 1, 0}’s {STRVAR_1 8, 2, 0}!

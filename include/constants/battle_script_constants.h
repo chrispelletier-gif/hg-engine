@@ -592,8 +592,10 @@
 #define BATTLE_SUBSCRIPT_WONDER_ROOM_END                         (582)
 #define BATTLE_SUBSCRIPT_TELEKINESIS                             (583)
 #define BATTLE_SUBSCRIPT_TELEKINESIS_END                         (584)
+#define BATTLE_SUBSCRIPT_COURT_CHANGE                            (585)
+#define BATTLE_SUBSCRIPT_CORROSIVE_GAS                           (586)
 
-#define MAX_BASE_SUBSCRIPT_NUM 584
+#define MAX_BASE_SUBSCRIPT_NUM 586
 
 // define your custom subscripts below like this
 // #define MOVE_SUBSCRIPT_CUSTOM_1 (MAX_BASE_SUBSCRIPT_NUM + 1)
