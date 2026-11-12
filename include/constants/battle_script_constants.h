@@ -536,8 +536,13 @@
 #define BATTLE_SUBSCRIPT_DOESNT_AFFECT_ALLY_ABILITY             (527)
 #define BATTLE_SUBSCRIPT_TRY_CLEAR_UNNERVE                      (528)
 #define BATTLE_SUBSCRIPT_SUPREME_OVERLORD                       (529)
+#define BATTLE_SUBSCRIPT_TOXIC_CHAIN                            (530)
+#define BATTLE_SUBSCRIPT_POISON_PUPPETEER                       (531)
+#define BATTLE_SUBSCRIPT_SUPERSWEET_SYRUP                       (532)
+#define BATTLE_SUBSCRIPT_CURIOUS_MEDICINE                       (533)
+#define BATTLE_SUBSCRIPT_COSTAR                                 (534)
 
-#define MAX_BASE_SUBSCRIPT_NUM 529
+#define MAX_BASE_SUBSCRIPT_NUM 534
 
 // define your custom subscripts below like this
 // #define MOVE_SUBSCRIPT_CUSTOM_1 (MAX_BASE_SUBSCRIPT_NUM + 1)

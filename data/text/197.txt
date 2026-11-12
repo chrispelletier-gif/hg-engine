@@ -1802,3 +1802,9 @@ The opposing {STRVAR_1 1, 0, 0} is drowsing!
 {STRVAR_1 1, 0, 0} gained strength\nfrom the fallen!
 The wild {STRVAR_1 1, 0, 0} gained strength\nfrom the fallen!
 The opposing {STRVAR_1 1, 0, 0} gained strength\nfrom the fallen!
+A supersweet aroma is wafting\nfrom {STRVAR_1 1, 0, 0}!
+A supersweet aroma is wafting\nfrom the wild {STRVAR_1 1, 0, 0}!
+A supersweet aroma is wafting\nfrom the opposing {STRVAR_1 1, 0, 0}!
+{STRVAR_1 1, 0, 0}’s stat changes\nwere removed!
+The wild {STRVAR_1 1, 0, 0}’s stat changes\nwere removed!
+The opposing {STRVAR_1 1, 0, 0}’s stat changes\nwere removed!
