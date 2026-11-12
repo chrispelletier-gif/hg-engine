@@ -581,7 +581,17 @@
 #define BATTLE_SUBSCRIPT_NO_RETREAT                              (572)
 #define BATTLE_SUBSCRIPT_DRAGON_CHEER                            (573)
 
-#define MAX_BASE_SUBSCRIPT_NUM 573
+#define BATTLE_SUBSCRIPT_PORT_NO_EFFECT                          (574)
+#define BATTLE_SUBSCRIPT_REFLECT_TYPE                            (575)
+#define BATTLE_SUBSCRIPT_OCTOLOCK                                (576)
+#define BATTLE_SUBSCRIPT_OCTOLOCK_DROP                           (577)
+#define BATTLE_SUBSCRIPT_ELECTRIFY                               (578)
+#define BATTLE_SUBSCRIPT_FAIRY_LOCK                              (579)
+#define BATTLE_SUBSCRIPT_WONDER_ROOM                             (580)
+#define BATTLE_SUBSCRIPT_WONDER_ROOM_RESTART                     (581)
+#define BATTLE_SUBSCRIPT_WONDER_ROOM_END                         (582)
+
+#define MAX_BASE_SUBSCRIPT_NUM 582
 
 // define your custom subscripts below like this
 // #define MOVE_SUBSCRIPT_CUSTOM_1 (MAX_BASE_SUBSCRIPT_NUM + 1)

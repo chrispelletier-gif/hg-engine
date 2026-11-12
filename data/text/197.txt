@@ -1856,3 +1856,19 @@ The opposing {STRVAR_1 1, 0, 0} became weaker to fire!
 {STRVAR_1 1, 0, 0} can no longer escape because it used No Retreat!
 The wild {STRVAR_1 1, 0, 0} can no longer escape because it used No Retreat!
 The opposing {STRVAR_1 1, 0, 0} can no longer escape because it used No Retreat!
+{STRVAR_1 1, 0, 0}’s moves have been electrified!
+The wild {STRVAR_1 1, 0, 0}’s moves have been electrified!
+The opposing {STRVAR_1 1, 0, 0}’s moves have been electrified!
+{STRVAR_1 1, 0, 0} can no longer escape because of Octolock!
+The wild {STRVAR_1 1, 0, 0} can no longer escape because of Octolock!
+The opposing {STRVAR_1 1, 0, 0} can no longer escape because of Octolock!
+No one will be able to run away during the next turn!
+It created a bizarre area in which Defense and Sp. Def stats are swapped!
+Wonder Room wore off, and Defense and Sp. Def stats returned to normal!
+{STRVAR_1 1, 0, 0}’s type became the same as\n{STRVAR_1 1, 1, 0}’s type!
+{STRVAR_1 1, 0, 0}’s type became the same as\nthe wild {STRVAR_1 1, 1, 0}’s type!
+{STRVAR_1 1, 0, 0}’s type became the same as\nthe opposing {STRVAR_1 1, 1, 0}’s type!
+The wild {STRVAR_1 1, 0, 0}’s type became the same as\n{STRVAR_1 1, 1, 0}’s type!
+The wild {STRVAR_1 1, 0, 0}’s type became the same as\nthe wild {STRVAR_1 1, 1, 0}’s type!
+The opposing {STRVAR_1 1, 0, 0}’s type became the same as\n{STRVAR_1 1, 1, 0}’s type!
+The opposing {STRVAR_1 1, 0, 0}’s type became the same as\nthe opposing {STRVAR_1 1, 1, 0}’s type!
