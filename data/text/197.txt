@@ -1932,3 +1932,10 @@ The opposing {STRVAR_1 1, 0, 0} and the opposing {STRVAR_1 1, 1, 0}\nswitched pl
 {STRVAR_1 1, 0, 0} was revived and\nis ready to fight again!
 The wild {STRVAR_1 1, 0, 0} was revived and\nis ready to fight again!
 The opposing {STRVAR_1 1, 0, 0} was revived and\nis ready to fight again!
+{STRVAR_1 1, 0, 0} was swallowed by\n{STRVAR_1 1, 1, 0} and became\f{STRVAR_1 1, 1, 0}’s commander!
+{STRVAR_1 1, 0, 0} was swallowed by\nthe wild {STRVAR_1 1, 1, 0} and became\fthe wild {STRVAR_1 1, 1, 0}’s commander!
+{STRVAR_1 1, 0, 0} was swallowed by\nthe opposing {STRVAR_1 1, 1, 0} and became\fthe opposing {STRVAR_1 1, 1, 0}’s commander!
+The wild {STRVAR_1 1, 0, 0} was swallowed by\n{STRVAR_1 1, 1, 0} and became\f{STRVAR_1 1, 1, 0}’s commander!
+The wild {STRVAR_1 1, 0, 0} was swallowed by\nthe wild {STRVAR_1 1, 1, 0} and became\fthe wild {STRVAR_1 1, 1, 0}’s commander!
+The opposing {STRVAR_1 1, 0, 0} was swallowed by\n{STRVAR_1 1, 1, 0} and became\f{STRVAR_1 1, 1, 0}’s commander!
+The opposing {STRVAR_1 1, 0, 0} was swallowed by\nthe opposing {STRVAR_1 1, 1, 0} and became\fthe opposing {STRVAR_1 1, 1, 0}’s commander!
