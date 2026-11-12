@@ -1823,3 +1823,12 @@ The opposing {STRVAR_1 1, 0, 0} shared its {STRVAR_1 8, 1, 0}\nwith {STRVAR_1 1,
 The opposing {STRVAR_1 1, 0, 0} shared its {STRVAR_1 8, 1, 0}\nwith the opposing {STRVAR_1 1, 2, 0}!
 Neutralizing gas filled the area!
 The effects of the neutralizing gas wore off!
+{STRVAR_1 1, 0, 0} is being salt cured!
+The wild {STRVAR_1 1, 0, 0} is being salt cured!
+The opposing {STRVAR_1 1, 0, 0} is being salt cured!
+{STRVAR_1 1, 0, 0} is hurt by Salt Cure!
+The wild {STRVAR_1 1, 0, 0} is hurt by Salt Cure!
+The opposing {STRVAR_1 1, 0, 0} is hurt by Salt Cure!
+{STRVAR_1 1, 0, 0} got covered in sticky candy syrup!
+The wild {STRVAR_1 1, 0, 0} got covered in sticky candy syrup!
+The opposing {STRVAR_1 1, 0, 0} got covered in sticky candy syrup!

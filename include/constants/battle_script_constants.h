@@ -555,8 +555,12 @@
 #define BATTLE_SUBSCRIPT_TRIPLE_ARROWS                          (546)
 #define BATTLE_SUBSCRIPT_BURNING_JEALOUSY                       (547)
 #define BATTLE_SUBSCRIPT_ALLURING_VOICE                         (548)
+#define BATTLE_SUBSCRIPT_SALT_CURE                              (549)
+#define BATTLE_SUBSCRIPT_SALT_CURE_DAMAGE                       (550)
+#define BATTLE_SUBSCRIPT_SYRUP_BOMB                             (551)
+#define BATTLE_SUBSCRIPT_SYRUP_BOMB_SPEED                       (552)
 
-#define MAX_BASE_SUBSCRIPT_NUM 548
+#define MAX_BASE_SUBSCRIPT_NUM 552
 
 // define your custom subscripts below like this
 // #define MOVE_SUBSCRIPT_CUSTOM_1 (MAX_BASE_SUBSCRIPT_NUM + 1)
@@ -785,8 +789,10 @@
 #define MOVE_SUBSCRIPT_PTR_TRIPLE_ARROWS                    (217)
 #define MOVE_SUBSCRIPT_PTR_BURNING_JEALOUSY                 (218)
 #define MOVE_SUBSCRIPT_PTR_ALLURING_VOICE                   (219)
+#define MOVE_SUBSCRIPT_PTR_SALT_CURE                        (220)
+#define MOVE_SUBSCRIPT_PTR_SYRUP_BOMB                       (221)
 
-#define MAX_BASE_SUBSCRIPT_PTR_NUM (219)
+#define MAX_BASE_SUBSCRIPT_PTR_NUM (221)
 
 // define your custom subscripts below like this
 // #define MOVE_SUBSCRIPT_PTR_CUSTOM_1 (MAX_BASE_SUBSCRIPT_PTR_NUM + 1)

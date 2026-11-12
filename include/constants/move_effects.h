@@ -418,8 +418,10 @@
 #define MOVE_EFFECT_TRIPLE_ARROWS                           411
 #define MOVE_EFFECT_BURNING_JEALOUSY                        412
 #define MOVE_EFFECT_ALLURING_VOICE                          413
+#define MOVE_EFFECT_SALT_CURE                               414
+#define MOVE_EFFECT_SYRUP_BOMB                              415
 
-#define MAX_BASE_MOVE_EFFECT_NUM 413
+#define MAX_BASE_MOVE_EFFECT_NUM 415
 
 // define your custom move effects below like this
 // #define MOVE_EFFECT_CUSTOM_1 (MAX_BASE_MOVE_EFFECT_NUM + 1)

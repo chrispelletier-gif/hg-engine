@@ -1690,7 +1690,14 @@
     .long (((\fail - .) / 4) - 1)
     .endm
 
-    .equ BASE_ENGINE_BTL_SCR_CMDS_MAX, 308
+    // kind: 0 = Salt Cure, 1 = Syrup Bomb (port volatiles on the defender)
+    .macro TryStartPortVolatile kind, fail
+    .long 309
+    .long \kind
+    .long (((\fail - .) / 4) - 1)
+    .endm
+
+    .equ BASE_ENGINE_BTL_SCR_CMDS_MAX, 309
 
     // .macro YourCustomCommand
     // .long (BASE_ENGINE_BTL_SCR_CMDS_MAX + 1)
