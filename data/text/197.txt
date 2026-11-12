@@ -1939,3 +1939,16 @@ The wild {STRVAR_1 1, 0, 0} was swallowed by\n{STRVAR_1 1, 1, 0} and became\f{ST
 The wild {STRVAR_1 1, 0, 0} was swallowed by\nthe wild {STRVAR_1 1, 1, 0} and became\fthe wild {STRVAR_1 1, 1, 0}’s commander!
 The opposing {STRVAR_1 1, 0, 0} was swallowed by\n{STRVAR_1 1, 1, 0} and became\f{STRVAR_1 1, 1, 0}’s commander!
 The opposing {STRVAR_1 1, 0, 0} was swallowed by\nthe opposing {STRVAR_1 1, 1, 0} and became\fthe opposing {STRVAR_1 1, 1, 0}’s commander!
+{STRVAR_1 1, 0, 0} took {STRVAR_1 1, 1, 0}\ninto the sky!
+{STRVAR_1 1, 0, 0} took the wild {STRVAR_1 1, 1, 0}\ninto the sky!
+{STRVAR_1 1, 0, 0} took the opposing {STRVAR_1 1, 1, 0}\ninto the sky!
+The wild {STRVAR_1 1, 0, 0} took {STRVAR_1 1, 1, 0}\ninto the sky!
+The wild {STRVAR_1 1, 0, 0} took the wild {STRVAR_1 1, 1, 0}\ninto the sky!
+The opposing {STRVAR_1 1, 0, 0} took {STRVAR_1 1, 1, 0}\ninto the sky!
+The opposing {STRVAR_1 1, 0, 0} took the opposing {STRVAR_1 1, 1, 0}\ninto the sky!
+{STRVAR_1 1, 0, 0} was freed\nfrom the Sky Drop!
+The wild {STRVAR_1 1, 0, 0} was freed\nfrom the Sky Drop!
+The opposing {STRVAR_1 1, 0, 0} was freed\nfrom the Sky Drop!
+{STRVAR_1 1, 0, 0} is too heavy\nto be lifted!
+The wild {STRVAR_1 1, 0, 0} is too heavy\nto be lifted!
+The opposing {STRVAR_1 1, 0, 0} is too heavy\nto be lifted!

@@ -611,8 +611,9 @@
 #define BATTLE_SUBSCRIPT_ALLY_SWITCH                             (601)
 #define BATTLE_SUBSCRIPT_REVIVAL_BLESSING                         (602)
 #define BATTLE_SUBSCRIPT_COMMANDER                                (603)
+#define BATTLE_SUBSCRIPT_SKY_DROP_FREED                           (604)
 
-#define MAX_BASE_SUBSCRIPT_NUM 603
+#define MAX_BASE_SUBSCRIPT_NUM 604
 
 // define your custom subscripts below like this
 // #define MOVE_SUBSCRIPT_CUSTOM_1 (MAX_BASE_SUBSCRIPT_NUM + 1)
