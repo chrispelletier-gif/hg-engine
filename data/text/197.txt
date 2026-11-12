@@ -1888,3 +1888,7 @@ The wild {STRVAR_1 1, 0, 0} corroded\n{STRVAR_1 1, 1, 0}’s {STRVAR_1 8, 2, 0}!
 The wild {STRVAR_1 1, 0, 0} corroded\nthe wild {STRVAR_1 1, 1, 0}’s {STRVAR_1 8, 2, 0}!
 The opposing {STRVAR_1 1, 0, 0} corroded\n{STRVAR_1 1, 1, 0}’s {STRVAR_1 8, 2, 0}!
 The opposing {STRVAR_1 1, 0, 0} corroded\nthe opposing {STRVAR_1 1, 1, 0}’s {STRVAR_1 8, 2, 0}!
+{STRVAR_1 1, 0, 0} is preparing\nto tell a chillingly bad joke!
+The wild {STRVAR_1 1, 0, 0} is preparing\nto tell a chillingly bad joke!
+The opposing {STRVAR_1 1, 0, 0} is preparing\nto tell a chillingly bad joke!
+It’s teatime! Everyone dug in\nto their Berries!

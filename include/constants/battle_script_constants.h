@@ -594,8 +594,12 @@
 #define BATTLE_SUBSCRIPT_TELEKINESIS_END                         (584)
 #define BATTLE_SUBSCRIPT_COURT_CHANGE                            (585)
 #define BATTLE_SUBSCRIPT_CORROSIVE_GAS                           (586)
+#define BATTLE_SUBSCRIPT_DOODLE                                  (587)
+#define BATTLE_SUBSCRIPT_TEATIME                                 (588)
+#define BATTLE_SUBSCRIPT_CHILLY_RECEPTION_JOKE                   (589)
+#define BATTLE_SUBSCRIPT_CHILLY_RECEPTION                        (590)
 
-#define MAX_BASE_SUBSCRIPT_NUM 586
+#define MAX_BASE_SUBSCRIPT_NUM 590
 
 // define your custom subscripts below like this
 // #define MOVE_SUBSCRIPT_CUSTOM_1 (MAX_BASE_SUBSCRIPT_NUM + 1)
