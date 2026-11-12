@@ -1844,3 +1844,15 @@ The opposing {STRVAR_1 1, 0, 0} set a shell trap!
 {STRVAR_1 1, 0, 0}’s shell trap didn’t work!
 The wild {STRVAR_1 1, 0, 0}’s shell trap didn’t work!
 The opposing {STRVAR_1 1, 0, 0}’s shell trap didn’t work!
+{STRVAR_1 1, 0, 0} switched Speed with its target!
+The wild {STRVAR_1 1, 0, 0} switched Speed with its target!
+The opposing {STRVAR_1 1, 0, 0} switched Speed with its target!
+{STRVAR_1 1, 0, 0}’s stat changes were all reversed!
+The wild {STRVAR_1 1, 0, 0}’s stat changes were all reversed!
+The opposing {STRVAR_1 1, 0, 0}’s stat changes were all reversed!
+{STRVAR_1 1, 0, 0} became weaker to fire!
+The wild {STRVAR_1 1, 0, 0} became weaker to fire!
+The opposing {STRVAR_1 1, 0, 0} became weaker to fire!
+{STRVAR_1 1, 0, 0} can no longer escape because it used No Retreat!
+The wild {STRVAR_1 1, 0, 0} can no longer escape because it used No Retreat!
+The opposing {STRVAR_1 1, 0, 0} can no longer escape because it used No Retreat!

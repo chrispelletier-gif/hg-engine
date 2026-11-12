@@ -420,8 +420,9 @@
 #define MOVE_EFFECT_ALLURING_VOICE                          413
 #define MOVE_EFFECT_SALT_CURE                               414
 #define MOVE_EFFECT_SYRUP_BOMB                              415
+#define MOVE_EFFECT_PORT_STATUS                             416
 
-#define MAX_BASE_MOVE_EFFECT_NUM 415
+#define MAX_BASE_MOVE_EFFECT_NUM 416
 
 // define your custom move effects below like this
 // #define MOVE_EFFECT_CUSTOM_1 (MAX_BASE_MOVE_EFFECT_NUM + 1)

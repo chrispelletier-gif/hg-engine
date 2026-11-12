@@ -1703,7 +1703,15 @@
     .long (((\done - .) / 4) - 1)
     .endm
 
-    .equ BASE_ENGINE_BTL_SCR_CMDS_MAX, 310
+    // port status moves: op 0 = start (subscript -> TEMP_DATA, jump if it fails),
+    // 1 = next target -> side-effect mon (jump when done), 2 = apply to it (jump if no effect)
+    .macro PortMove op, label
+    .long 311
+    .long \op
+    .long (((\label - .) / 4) - 1)
+    .endm
+
+    .equ BASE_ENGINE_BTL_SCR_CMDS_MAX, 311
 
     // .macro YourCustomCommand
     // .long (BASE_ENGINE_BTL_SCR_CMDS_MAX + 1)

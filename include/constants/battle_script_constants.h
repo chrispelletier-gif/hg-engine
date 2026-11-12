@@ -565,8 +565,23 @@
 #define BATTLE_SUBSCRIPT_BEAK_BLAST_BURN                        (556)
 #define BATTLE_SUBSCRIPT_SHELL_TRAP_SET                         (557)
 #define BATTLE_SUBSCRIPT_SHELL_TRAP_FAIL                        (558)
+#define BATTLE_SUBSCRIPT_PORT_STATUS                             (559)
+#define BATTLE_SUBSCRIPT_PORT_CURE_STATUS                        (560)
+#define BATTLE_SUBSCRIPT_GEAR_UP                                 (561)
+#define BATTLE_SUBSCRIPT_MAGNETIC_FLUX                           (562)
+#define BATTLE_SUBSCRIPT_ROTOTILLER                              (563)
+#define BATTLE_SUBSCRIPT_FLOWER_SHIELD                           (564)
+#define BATTLE_SUBSCRIPT_AROMATIC_MIST                           (565)
+#define BATTLE_SUBSCRIPT_JUNGLE_HEALING                          (566)
+#define BATTLE_SUBSCRIPT_FLORAL_HEALING                          (567)
+#define BATTLE_SUBSCRIPT_PURIFY                                  (568)
+#define BATTLE_SUBSCRIPT_TOPSY_TURVY                             (569)
+#define BATTLE_SUBSCRIPT_SPEED_SWAP                              (570)
+#define BATTLE_SUBSCRIPT_TAR_SHOT                                (571)
+#define BATTLE_SUBSCRIPT_NO_RETREAT                              (572)
+#define BATTLE_SUBSCRIPT_DRAGON_CHEER                            (573)
 
-#define MAX_BASE_SUBSCRIPT_NUM 558
+#define MAX_BASE_SUBSCRIPT_NUM 573
 
 // define your custom subscripts below like this
 // #define MOVE_SUBSCRIPT_CUSTOM_1 (MAX_BASE_SUBSCRIPT_NUM + 1)
@@ -797,8 +812,9 @@
 #define MOVE_SUBSCRIPT_PTR_ALLURING_VOICE                   (219)
 #define MOVE_SUBSCRIPT_PTR_SALT_CURE                        (220)
 #define MOVE_SUBSCRIPT_PTR_SYRUP_BOMB                       (221)
+#define MOVE_SUBSCRIPT_PTR_PORT_STATUS                      (222)
 
-#define MAX_BASE_SUBSCRIPT_PTR_NUM (221)
+#define MAX_BASE_SUBSCRIPT_PTR_NUM (222)
 
 // define your custom subscripts below like this
 // #define MOVE_SUBSCRIPT_PTR_CUSTOM_1 (MAX_BASE_SUBSCRIPT_PTR_NUM + 1)
