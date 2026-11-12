@@ -548,8 +548,11 @@
 #define BATTLE_SUBSCRIPT_NEUTRALIZING_GAS                       (539)
 #define BATTLE_SUBSCRIPT_NEUTRALIZING_GAS_END                   (540)
 #define BATTLE_SUBSCRIPT_TRY_END_NEUTRALIZING_GAS               (541)
+#define BATTLE_SUBSCRIPT_GULP_MISSILE_CATCH                     (542)
+#define BATTLE_SUBSCRIPT_GULP_MISSILE_DIVE                      (543)
+#define BATTLE_SUBSCRIPT_GULP_MISSILE_SPIT                      (544)
 
-#define MAX_BASE_SUBSCRIPT_NUM 541
+#define MAX_BASE_SUBSCRIPT_NUM 544
 
 // define your custom subscripts below like this
 // #define MOVE_SUBSCRIPT_CUSTOM_1 (MAX_BASE_SUBSCRIPT_NUM + 1)
