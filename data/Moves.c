@@ -13006,7 +13006,7 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         .battle = {
             .target = RANGE_USER,
             .priority = 0,
-            .flags = FLAG_MIRROR_MOVE | FLAG_UNUSABLE_IN_GEN_8 | FLAG_UNUSABLE_IN_GEN_9 | FLAG_UNUSABLE_UNIMPLEMENTED,
+            .flags = FLAG_MIRROR_MOVE | FLAG_UNUSABLE_IN_GEN_8 | FLAG_UNUSABLE_IN_GEN_9,
         },
         .contest = {
             .appeal = 0,
@@ -16019,7 +16019,7 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
             .fullName = "Confide",
         },
         .data = {
-            .effect = MOVE_EFFECT_HIT,
+            .effect = MOVE_EFFECT_SP_ATK_DOWN,
             .split = SPLIT_STATUS,
             .power = 0,
             .type = TYPE_NORMAL,
@@ -16030,7 +16030,7 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         .battle = {
             .target = RANGE_SINGLE_TARGET,
             .priority = 0,
-            .flags = FLAG_MIRROR_MOVE | FLAG_UNUSABLE_IN_GEN_8 | FLAG_UNUSABLE_IN_GEN_9 | FLAG_UNUSABLE_UNIMPLEMENTED | FLAG_MAGIC_COAT,
+            .flags = FLAG_MIRROR_MOVE | FLAG_UNUSABLE_IN_GEN_8 | FLAG_UNUSABLE_IN_GEN_9 | FLAG_MAGIC_COAT,
         },
         .contest = {
             .appeal = 0,
@@ -24724,7 +24724,7 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         .battle = {
             .target = RANGE_SINGLE_TARGET,
             .priority = 0,
-            .flags = FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_UNUSABLE_IN_GEN_8 | FLAG_UNUSABLE_IN_GEN_9 | FLAG_UNUSABLE_UNIMPLEMENTED | FLAG_PROTECT | FLAG_CONTACT,
+            .flags = FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_UNUSABLE_IN_GEN_8 | FLAG_UNUSABLE_IN_GEN_9 | FLAG_PROTECT | FLAG_CONTACT,
         },
         .contest = {
             .appeal = 0,
