@@ -1821,3 +1821,5 @@ The wild {STRVAR_1 1, 0, 0} shared its {STRVAR_1 8, 1, 0}\nwith {STRVAR_1 1, 2, 
 The wild {STRVAR_1 1, 0, 0} shared its {STRVAR_1 8, 1, 0}\nwith the wild {STRVAR_1 1, 2, 0}!
 The opposing {STRVAR_1 1, 0, 0} shared its {STRVAR_1 8, 1, 0}\nwith {STRVAR_1 1, 2, 0}!
 The opposing {STRVAR_1 1, 0, 0} shared its {STRVAR_1 8, 1, 0}\nwith the opposing {STRVAR_1 1, 2, 0}!
+Neutralizing gas filled the area!
+The effects of the neutralizing gas wore off!

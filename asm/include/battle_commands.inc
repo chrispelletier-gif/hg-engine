@@ -1670,7 +1670,13 @@
     .long (((\done - .) / 4) - 1)
     .endm
 
-    .equ BASE_ENGINE_BTL_SCR_CMDS_MAX, 304
+    .macro TryEndNeutralizingGas battler, skip
+    .long 305
+    .long \battler
+    .long (((\skip - .) / 4) - 1)
+    .endm
+
+    .equ BASE_ENGINE_BTL_SCR_CMDS_MAX, 305
 
     // .macro YourCustomCommand
     // .long (BASE_ENGINE_BTL_SCR_CMDS_MAX + 1)

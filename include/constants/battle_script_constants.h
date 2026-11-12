@@ -545,8 +545,11 @@
 #define BATTLE_SUBSCRIPT_AROMA_VEIL                             (536)
 #define BATTLE_SUBSCRIPT_CUD_CHEW                               (537)
 #define BATTLE_SUBSCRIPT_SYMBIOSIS                              (538)
+#define BATTLE_SUBSCRIPT_NEUTRALIZING_GAS                       (539)
+#define BATTLE_SUBSCRIPT_NEUTRALIZING_GAS_END                   (540)
+#define BATTLE_SUBSCRIPT_TRY_END_NEUTRALIZING_GAS               (541)
 
-#define MAX_BASE_SUBSCRIPT_NUM 538
+#define MAX_BASE_SUBSCRIPT_NUM 541
 
 // define your custom subscripts below like this
 // #define MOVE_SUBSCRIPT_CUSTOM_1 (MAX_BASE_SUBSCRIPT_NUM + 1)
