@@ -1832,3 +1832,6 @@ The opposing {STRVAR_1 1, 0, 0} is hurt by Salt Cure!
 {STRVAR_1 1, 0, 0} got covered in sticky candy syrup!
 The wild {STRVAR_1 1, 0, 0} got covered in sticky candy syrup!
 The opposing {STRVAR_1 1, 0, 0} got covered in sticky candy syrup!
+{STRVAR_1 1, 0, 0} stole the target’s boosted stats!
+The wild {STRVAR_1 1, 0, 0} stole the target’s boosted stats!
+The opposing {STRVAR_1 1, 0, 0} stole the target’s boosted stats!

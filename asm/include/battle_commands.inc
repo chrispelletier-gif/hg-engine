@@ -1697,7 +1697,13 @@
     .long (((\fail - .) / 4) - 1)
     .endm
 
-    .equ BASE_ENGINE_BTL_SCR_CMDS_MAX, 309
+    // Spectral Thief: next stolen stat -> SIDE_EFFECT_PARAM for the attacker, or jump when done
+    .macro TrySpectralThiefStat done
+    .long 310
+    .long (((\done - .) / 4) - 1)
+    .endm
+
+    .equ BASE_ENGINE_BTL_SCR_CMDS_MAX, 310
 
     // .macro YourCustomCommand
     // .long (BASE_ENGINE_BTL_SCR_CMDS_MAX + 1)
