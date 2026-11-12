@@ -1952,3 +1952,9 @@ The opposing {STRVAR_1 1, 0, 0} was freed\nfrom the Sky Drop!
 {STRVAR_1 1, 0, 0} is too heavy\nto be lifted!
 The wild {STRVAR_1 1, 0, 0} is too heavy\nto be lifted!
 The opposing {STRVAR_1 1, 0, 0} is too heavy\nto be lifted!
+{STRVAR_1 1, 0, 0} made its shell gleam!\nIt’s distorting type matchups!
+The wild {STRVAR_1 1, 0, 0} made its shell gleam!\nIt’s distorting type matchups!
+The opposing {STRVAR_1 1, 0, 0} made its shell gleam!\nIt’s distorting type matchups!
+{STRVAR_1 1, 0, 0} found a\n{STRVAR_1 8, 1, 0}!
+The wild {STRVAR_1 1, 0, 0} found a\n{STRVAR_1 8, 1, 0}!
+The opposing {STRVAR_1 1, 0, 0} found a\n{STRVAR_1 8, 1, 0}!

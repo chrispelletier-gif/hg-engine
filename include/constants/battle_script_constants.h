@@ -612,8 +612,11 @@
 #define BATTLE_SUBSCRIPT_REVIVAL_BLESSING                         (602)
 #define BATTLE_SUBSCRIPT_COMMANDER                                (603)
 #define BATTLE_SUBSCRIPT_SKY_DROP_FREED                           (604)
+#define BATTLE_SUBSCRIPT_TERA_SHIFT                               (605)
+#define BATTLE_SUBSCRIPT_TERA_SHELL                               (606)
+#define BATTLE_SUBSCRIPT_BALL_FETCH                               (607)
 
-#define MAX_BASE_SUBSCRIPT_NUM 604
+#define MAX_BASE_SUBSCRIPT_NUM 607
 
 // define your custom subscripts below like this
 // #define MOVE_SUBSCRIPT_CUSTOM_1 (MAX_BASE_SUBSCRIPT_NUM + 1)
