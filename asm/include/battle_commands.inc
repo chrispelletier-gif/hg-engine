@@ -1652,7 +1652,20 @@
     .long (((\arg_1 - .) / 4) - 1)
     .endm
 
-    .equ BASE_ENGINE_BTL_SCR_CMDS_MAX, 301
+    // port additions
+    .macro TryMirrorArmor normal, reflectDirect, absorbed, absorbedDirect
+    .long 302
+    .long (((\normal - .) / 4) - 4)
+    .long (((\reflectDirect - .) / 4) - 3)
+    .long (((\absorbed - .) / 4) - 2)
+    .long (((\absorbedDirect - .) / 4) - 1)
+    .endm
+
+    .macro EndMirrorArmor
+    .long 303
+    .endm
+
+    .equ BASE_ENGINE_BTL_SCR_CMDS_MAX, 303
 
     // .macro YourCustomCommand
     // .long (BASE_ENGINE_BTL_SCR_CMDS_MAX + 1)

@@ -1808,3 +1808,6 @@ A supersweet aroma is wafting\nfrom the opposing {STRVAR_1 1, 0, 0}!
 {STRVAR_1 1, 0, 0}’s stat changes\nwere removed!
 The wild {STRVAR_1 1, 0, 0}’s stat changes\nwere removed!
 The opposing {STRVAR_1 1, 0, 0}’s stat changes\nwere removed!
+{STRVAR_1 1, 0, 0}\ncan act faster than normal,\fthanks to its Quick Draw!
+The wild {STRVAR_1 1, 0, 0}\ncan act faster than normal,\fthanks to its Quick Draw!
+The opposing {STRVAR_1 1, 0, 0}\ncan act faster than normal,\fthanks to its Quick Draw!
