@@ -1872,3 +1872,9 @@ The wild {STRVAR_1 1, 0, 0}’s type became the same as\n{STRVAR_1 1, 1, 0}’s 
 The wild {STRVAR_1 1, 0, 0}’s type became the same as\nthe wild {STRVAR_1 1, 1, 0}’s type!
 The opposing {STRVAR_1 1, 0, 0}’s type became the same as\n{STRVAR_1 1, 1, 0}’s type!
 The opposing {STRVAR_1 1, 0, 0}’s type became the same as\nthe opposing {STRVAR_1 1, 1, 0}’s type!
+{STRVAR_1 1, 0, 0} was hurled into the air!
+The wild {STRVAR_1 1, 0, 0} was hurled into the air!
+The opposing {STRVAR_1 1, 0, 0} was hurled into the air!
+{STRVAR_1 1, 0, 0} was freed from the telekinesis!
+The wild {STRVAR_1 1, 0, 0} was freed from the telekinesis!
+The opposing {STRVAR_1 1, 0, 0} was freed from the telekinesis!
