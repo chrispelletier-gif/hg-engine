@@ -1811,3 +1811,6 @@ The opposing {STRVAR_1 1, 0, 0}’s stat changes\nwere removed!
 {STRVAR_1 1, 0, 0}\ncan act faster than normal,\fthanks to its Quick Draw!
 The wild {STRVAR_1 1, 0, 0}\ncan act faster than normal,\fthanks to its Quick Draw!
 The opposing {STRVAR_1 1, 0, 0}\ncan act faster than normal,\fthanks to its Quick Draw!
+{STRVAR_1 1, 0, 0} is protected by an aromatic veil!
+The wild {STRVAR_1 1, 0, 0} is protected by an aromatic veil!
+The opposing {STRVAR_1 1, 0, 0} is protected by an aromatic veil!

@@ -542,8 +542,10 @@
 #define BATTLE_SUBSCRIPT_CURIOUS_MEDICINE                       (533)
 #define BATTLE_SUBSCRIPT_COSTAR                                 (534)
 #define BATTLE_SUBSCRIPT_OPPORTUNIST                            (535)
+#define BATTLE_SUBSCRIPT_AROMA_VEIL                             (536)
+#define BATTLE_SUBSCRIPT_CUD_CHEW                               (537)
 
-#define MAX_BASE_SUBSCRIPT_NUM 535
+#define MAX_BASE_SUBSCRIPT_NUM 537
 
 // define your custom subscripts below like this
 // #define MOVE_SUBSCRIPT_CUSTOM_1 (MAX_BASE_SUBSCRIPT_NUM + 1)
