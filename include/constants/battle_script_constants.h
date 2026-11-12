@@ -609,8 +609,9 @@
 #define BATTLE_SUBSCRIPT_RAINBOW_END                              (599)
 #define BATTLE_SUBSCRIPT_SWAMP_END                                (600)
 #define BATTLE_SUBSCRIPT_ALLY_SWITCH                             (601)
+#define BATTLE_SUBSCRIPT_REVIVAL_BLESSING                         (602)
 
-#define MAX_BASE_SUBSCRIPT_NUM 601
+#define MAX_BASE_SUBSCRIPT_NUM 602
 
 // define your custom subscripts below like this
 // #define MOVE_SUBSCRIPT_CUSTOM_1 (MAX_BASE_SUBSCRIPT_NUM + 1)

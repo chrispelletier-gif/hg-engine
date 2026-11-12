@@ -1929,3 +1929,6 @@ The wild {STRVAR_1 1, 0, 0} and {STRVAR_1 1, 1, 0}\nswitched places!
 The wild {STRVAR_1 1, 0, 0} and the wild {STRVAR_1 1, 1, 0}\nswitched places!
 The opposing {STRVAR_1 1, 0, 0} and {STRVAR_1 1, 1, 0}\nswitched places!
 The opposing {STRVAR_1 1, 0, 0} and the opposing {STRVAR_1 1, 1, 0}\nswitched places!
+{STRVAR_1 1, 0, 0} was revived and\nis ready to fight again!
+The wild {STRVAR_1 1, 0, 0} was revived and\nis ready to fight again!
+The opposing {STRVAR_1 1, 0, 0} was revived and\nis ready to fight again!
