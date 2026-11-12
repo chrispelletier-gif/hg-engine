@@ -553,8 +553,10 @@
 #define BATTLE_SUBSCRIPT_GULP_MISSILE_SPIT                      (544)
 #define BATTLE_SUBSCRIPT_EERIE_SPELL                            (545)
 #define BATTLE_SUBSCRIPT_TRIPLE_ARROWS                          (546)
+#define BATTLE_SUBSCRIPT_BURNING_JEALOUSY                       (547)
+#define BATTLE_SUBSCRIPT_ALLURING_VOICE                         (548)
 
-#define MAX_BASE_SUBSCRIPT_NUM 546
+#define MAX_BASE_SUBSCRIPT_NUM 548
 
 // define your custom subscripts below like this
 // #define MOVE_SUBSCRIPT_CUSTOM_1 (MAX_BASE_SUBSCRIPT_NUM + 1)
@@ -781,8 +783,10 @@
 // port additions
 #define MOVE_SUBSCRIPT_PTR_EERIE_SPELL                      (216)
 #define MOVE_SUBSCRIPT_PTR_TRIPLE_ARROWS                    (217)
+#define MOVE_SUBSCRIPT_PTR_BURNING_JEALOUSY                 (218)
+#define MOVE_SUBSCRIPT_PTR_ALLURING_VOICE                   (219)
 
-#define MAX_BASE_SUBSCRIPT_PTR_NUM (217)
+#define MAX_BASE_SUBSCRIPT_PTR_NUM (219)
 
 // define your custom subscripts below like this
 // #define MOVE_SUBSCRIPT_PTR_CUSTOM_1 (MAX_BASE_SUBSCRIPT_PTR_NUM + 1)

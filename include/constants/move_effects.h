@@ -416,8 +416,10 @@
 #define MOVE_EFFECT_UPPER_HAND                              409
 #define MOVE_EFFECT_EERIE_SPELL                             410
 #define MOVE_EFFECT_TRIPLE_ARROWS                           411
+#define MOVE_EFFECT_BURNING_JEALOUSY                        412
+#define MOVE_EFFECT_ALLURING_VOICE                          413
 
-#define MAX_BASE_MOVE_EFFECT_NUM 411
+#define MAX_BASE_MOVE_EFFECT_NUM 413
 
 // define your custom move effects below like this
 // #define MOVE_EFFECT_CUSTOM_1 (MAX_BASE_MOVE_EFFECT_NUM + 1)

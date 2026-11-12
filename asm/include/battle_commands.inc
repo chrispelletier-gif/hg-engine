@@ -1685,7 +1685,12 @@
     .long 307
     .endm
 
-    .equ BASE_ENGINE_BTL_SCR_CMDS_MAX, 307
+    .macro JumpIfStatsNotRaisedThisTurn fail
+    .long 308
+    .long (((\fail - .) / 4) - 1)
+    .endm
+
+    .equ BASE_ENGINE_BTL_SCR_CMDS_MAX, 308
 
     // .macro YourCustomCommand
     // .long (BASE_ENGINE_BTL_SCR_CMDS_MAX + 1)
